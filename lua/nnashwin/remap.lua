@@ -1,0 +1,10 @@
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("i", "fd", "<Esc>")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-c>", '"+y')
+vim.keymap.set("v", "<C-c>", '"+y')
+vim.keymap.set("n", "<leader>vs", ":vspl<cr>")
+vim.keymap.set("n", "<leader>hs", ":spl<cr>")
+vim.keymap.set("v", "<C-s>", ":sort i<cr>")
